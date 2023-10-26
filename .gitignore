@@ -1,0 +1,52 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+*.exe
+*.test
+*.prof
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+# Log files
+*.log
+
+# Dependency directories (Go Modules support)
+/vendor/
+/go.sum
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.dylib
+*.so
+*.out
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (legacy GOPATH workspace mode)
+/bin/
+
+# IDE - Goland (JetBrains products)
+.idea/
+
+# macOS generated files
+.DS_Store
+
+# Temporary files
+*~
+
+# Go build cache
+**/__pycache__/
+
